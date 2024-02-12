@@ -16,26 +16,14 @@ use Illuminate\Support\Facades\Route;
 
 
 Auth::routes();
-
-Route::get('aboutus', 'AboutUsController@index')->name('aboutus');
-Route::get('/', 'HomePageController@index')->name('landing');
-Route::get('contact', 'ContactController@index')->name('contact');
-Route::post('save_contact', 'ContactController@save_contact')->name('save_contact');
-Route::get('donation', 'DonationController@index')->name('donation');
-Route::get('programhighlights/{type}', 'ProgramHighlightsController@index')->name('programhighlights');
-Route::get('ride', 'RideController@index')->name('ride');
+Route::get('/', 'RideController@index')->name('ride');
 
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('home', 'Admin\HomeController@index')->name('admin.index');
-    Route::get('/admin/about_us', 'Admin\HomeController@about_us')->name('admin.about_us');
-    Route::get('/admin/donation', 'Admin\HomeController@donation')->name('admin.donation');
-    Route::get('/admin/programhighlights/{type}', 'Admin\HomeController@programhighlights')->name('admin.programhighlights');
-    Route::get('/admin/contact', 'Admin\HomeController@contact')->name('admin.contact');
-    Route::post('update_content', 'Admin\ContentController@update')->name('admin.update_content');
-    Route::get('/admin/ride', 'Admin\HomeController@ride_page')->name('admin.ride_page');
+    Route::get('home', 'Admin\HomeController@ride_page')->name('admin.ride_page');
     Route::get('/admin/settings', 'Admin\HomeController@settings')->name('admin.settings');
     Route::get('/admin/footer', 'Admin\HomeController@footer')->name('admin.footer');
+    Route::post('update_content', 'Admin\ContentController@update')->name('admin.update_content');
     Route::get('/admin/header', 'Admin\HomeController@header')->name('admin.header');
     Route::get('/admin/delete_img/{col}/{img}', 'Admin\HomeController@delete_img')->name('admin.delete_img');
 

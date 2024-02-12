@@ -10,58 +10,58 @@ use Illuminate\Support\Facades\File;
 
 class HomeController extends Controller
 {
-    public function index()
-    {
+    // public function index()
+    // {
 
-        $contents = Content::where('page', 'home')->get();
-        $data = [];
-        foreach ($contents as $value) {
-            $data[$value->type] = $value->content;
-        }
-        return view('admin.home.index', compact('data'));
-    }
-    public function about_us()
-    {
-        $data = [];
-        $contents = Content::where('page', 'about_us')->get();
-        foreach ($contents as $value) {
-            $data[$value->type] = $value->content;
-        }
-        // dd($data);
-        return view('admin.home.about_us', compact('data'));
-    }
-    public function donation()
-    {
-        $data = [];
-        $contents = Content::where('page', 'donation')->get();
-        foreach ($contents as $value) {
-            $data[$value->type] = $value->content;
-        }
-        // dd($data);
-        return view('admin.home.donation', compact('data'));
-    }
-    public function programhighlights($type)
-    {
-        $data = [];
-        $program_highlights = ['cooking_classes', 'lifestyle_changes', 'treatments'];
-        if (in_array($type, $program_highlights)) {
-            $contents = Content::where('page', 'programhighlights_' . $type)->get();
-            foreach ($contents as $value) {
-                $data[$value->type] = $value->content;
-            }
-            $background_img = "frontend/programhighlights_'.$type.'/header/header_background_img.png";
-            return view('admin.home.program_highlights', compact('data', 'type', 'background_img'));
-        }
-    }
-    public function contact()
-    {
-        $data = [];
-        $contents = Content::where('page', 'contact')->get();
-        foreach ($contents as $value) {
-            $data[$value->type] = $value->content;
-        }
-        return view('admin.home.contact', compact('data'));
-    }
+    //     $contents = Content::where('page', 'home')->get();
+    //     $data = [];
+    //     foreach ($contents as $value) {
+    //         $data[$value->type] = $value->content;
+    //     }
+    //     return view('admin.home.index', compact('data'));
+    // }
+    // public function about_us()
+    // {
+    //     $data = [];
+    //     $contents = Content::where('page', 'about_us')->get();
+    //     foreach ($contents as $value) {
+    //         $data[$value->type] = $value->content;
+    //     }
+    //     // dd($data);
+    //     return view('admin.home.about_us', compact('data'));
+    // }
+    // public function donation()
+    // {
+    //     $data = [];
+    //     $contents = Content::where('page', 'donation')->get();
+    //     foreach ($contents as $value) {
+    //         $data[$value->type] = $value->content;
+    //     }
+    //     // dd($data);
+    //     return view('admin.home.donation', compact('data'));
+    // }
+    // public function programhighlights($type)
+    // {
+    //     $data = [];
+    //     $program_highlights = ['cooking_classes', 'lifestyle_changes', 'treatments'];
+    //     if (in_array($type, $program_highlights)) {
+    //         $contents = Content::where('page', 'programhighlights_' . $type)->get();
+    //         foreach ($contents as $value) {
+    //             $data[$value->type] = $value->content;
+    //         }
+    //         $background_img = "frontend/programhighlights_'.$type.'/header/header_background_img.png";
+    //         return view('admin.home.program_highlights', compact('data', 'type', 'background_img'));
+    //     }
+    // }
+    // public function contact()
+    // {
+    //     $data = [];
+    //     $contents = Content::where('page', 'contact')->get();
+    //     foreach ($contents as $value) {
+    //         $data[$value->type] = $value->content;
+    //     }
+    //     return view('admin.home.contact', compact('data'));
+    // }
     public function ride_page()
     {
         $data = [];
@@ -107,10 +107,5 @@ class HomeController extends Controller
             File::delete($filePath);
             return redirect()->back();
         }
-    }
-    public function QureyListing()
-    {
-        $queries= Query::get();
-        return view('admin.home.qurey_listing',compact('queries'));
     }
 }
