@@ -1,0 +1,838 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar_bg {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    /* You can adjust this to top, bottom, left, right, etc. */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.nav_links {
+    font-size: 0.95em !important;
+    color: #fff !important;
+    font-family: "Sora", sans-serif;
+}
+
+.nav_links_blue {
+    font-size: 1em !important;
+    color: #779ec3 !important;
+    font-family: "Sora", sans-serif;
+}
+
+.rehabilitation_box_h3 {
+    font-family: "Sora", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+    /* 175% */
+    text-transform: uppercase;
+    color: white;
+    padding-top: 220px;
+}
+
+.rehabilitation_box_h3_about {
+    font-family: "Sora", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+    /* 175% */
+    text-transform: uppercase;
+    color: white;
+    padding-top: 220px;
+    padding-bottom: 80px;
+}
+
+.rehabilitation_box {
+    padding: 30px;
+    border-radius: 0px 0px 40px 40px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-top: none !important;
+    background: linear-gradient( 189deg, rgba(77, 238, 170, 0) 35.83%, rgba(123, 199, 96, 0.85) 70.75%);
+    margin-bottom: 30px;
+}
+
+.rehabilitation_box_p {
+    color: #fff;
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.about_phcl {
+    padding-top: 21em;
+    padding-bottom: 150px;
+}
+
+.about_phcl_page {
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+.about_phcl_img {
+    height: 300px !important;
+}
+
+.about_phcl_h3 {
+    color: #034d82;
+    font-family: "Sora";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.about_phcl_p {
+    color: #90a3b4;
+    font-family: "Sora";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+}
+
+.about_phcl_p_about_page {
+    color: #90a3b4;
+    font-family: "Sora";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+.about_phcl_read_more {
+    color: #04aadd;
+    font-family: "Sora";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.services_bg {
+    background-image: url("/assets/images/Vector\ 1.png");
+    background-repeat: no-repeat;
+}
+
+.services_box {
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 0px 24px 32px 2px rgba(3, 9, 50, 0.04);
+    padding: 24px;
+}
+
+.cooking_classes_h3 {
+    color: #000;
+    font-family: "Sora";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cooking_classes_p {
+    color: #6c87ae;
+    font-family: "Sora";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.gallery_top_bottom_space {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.images_height {
+    height: 700px !important;
+    width: 100% !important;
+}
+
+.traction_bg {
+    border-radius: 0px 249px 0px 0px;
+    background: linear-gradient( 180deg, #bef4ab 0%, rgba(190, 244, 171, 0.45) 55.28%, rgba(217, 217, 217, 0) 100%);
+}
+
+.traction_count {
+    color: #18ab63 !important;
+    font-family: "Sora";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.traction_h3 {
+    color: #000;
+    font-family: "Sora";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.team_box {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 24px 32px 2px rgba(3, 9, 50, 0.04);
+    padding: 22px;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    position: relative;
+    top: -50px;
+}
+
+.team_member_name {
+    color: #000;
+    font-family: "Sora";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.user-pic {
+    width: 56px;
+    height: 54px;
+}
+
+i {
+    color: #faad13;
+}
+
+.waht_people_say {
+    color: #034d82;
+    font-family: "Sora";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    /* 144.444% */
+    letter-spacing: 0.3px;
+}
+
+.testimonial_review {
+    color: #90a3b4;
+    font-family: "Sora";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    /* 200% */
+}
+
+.testimonial_review_designation {
+    color: #90a3b4;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 200% */
+}
+
+.user_name_testimonial {
+    color: #034d82;
+    font-family: "Sora";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.2px;
+}
+
+.padding_top_testimonial {
+    padding-top: 120px;
+}
+
+.first_half_bar {
+    background-color: #21325b;
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.second_half_bar {
+    background-color: #18ab63;
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.donate_bar {
+    background-color: #00c9a7;
+    color: white;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.progress_gray_bg {
+    background-color: #909090 !important;
+}
+
+.registration_p {
+    color: #000;
+    text-align: center;
+    font-family: "Sora";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.registration_p_assebility {
+    color: #000;
+    text-align: center;
+    font-family: "Sora";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.registration_span {
+    color: #779ec3;
+    text-decoration: underline;
+}
+
+.social-link {
+    margin-right: 40px;
+}
+
+.footor-link {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color: #A3E48F;
+}
+
+.footer_p_link {
+    color: #fff;
+    font-family: "Sora";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.pchl_info {
+    color: #fff;
+    font-family: "Sora";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pchl_info_p {
+    color: #fff;
+    font-family: "Sora";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.border_bottom_white {
+    width: 100%;
+    border-top: 1px solid #fff !important;
+}
+
+.pivotpoint_deployment {
+    color: #fff;
+    font-family: "Sora";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Cards Carousel CSS  */
+
+#cCarousel {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+
+#cCarousel .arrow {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 26px;
+    color: white;
+    background: #00000072;
+    cursor: pointer;
+}
+
+#cCarousel #prev {
+    left: 0px;
+}
+
+#cCarousel #next {
+    right: 0px;
+}
+
+#carousel-vp {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+@media (max-width: 770px) {
+    #carousel-vp {
+        width: 510px;
+    }
+}
+
+@media (max-width: 510px) {
+    #carousel-vp {
+        width: 250px;
+    }
+}
+
+#cCarousel #cCarousel-inner {
+    display: flex;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    gap: 10px;
+    left: 0px;
+}
+
+@media only screen and (max-width: 6000px) and (min-width: 992px) {
+    #cCarousel #cCarousel-inner {
+        display: flex;
+        position: absolute;
+        transition: 0.3s ease-in-out;
+        gap: 50px;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    #cCarousel #cCarousel-inner {
+        display: flex;
+        position: absolute;
+        transition: 0.3s ease-in-out;
+        gap: 20px;
+        left: 0px;
+    }
+}
+
+.cCarousel-item {
+    width: 250px;
+    height: 450px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.cCarousel-item img {
+    width: 100%;
+    object-fit: cover;
+    min-height: 246px;
+    color: white;
+    border-radius: 8px;
+    background: transparent !important;
+}
+
+.cCarousel-item .infos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    color: black;
+}
+
+.cCarousel-item .infos button {
+    background: #222;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.caraousel_bg {
+    background: rgba(174, 192, 206, 0.16);
+}
+
+.learn_more_btn {
+    border-radius: 75.367px !important;
+    background: #779ec3 !important;
+    color: white !important;
+    box-shadow: 0px 6.029px 17.334px 0px rgba(65, 132, 247, 0.24) !important;
+    border: none !important;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.about_page_box {
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 24px 32px 2px rgba(3, 9, 50, 0.04);
+    padding: 24px;
+}
+
+.about_page_mission_class {
+    color: #000;
+    font-family: "Sora";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contact_page_box {
+    border-radius: 59px;
+    background: rgba(216, 216, 216, 0.21);
+    padding: 100px;
+    padding-bottom: 65px !important;
+}
+
+.contact_width {
+    width: 80% !important;
+}
+
+.submit_contact_form_btn {
+    border-radius: 18px;
+    background: #27ae60;
+    color: #fff;
+    font-family: "Sora";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 53px;
+    width: 200px;
+    border: none;
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 6000px) and (min-width: 992px) {
+    .cCarousel-item.middle {
+        width: 290px;
+        height: 490px;
+    }
+    .cCarousel-item.start {
+        margin-top: 22px;
+    }
+    .carousel_images_space {
+        padding-top: 10px;
+        padding-right: 100px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 575px) {
+    .submit_contact_form_btn {
+        border-radius: 18px;
+        background: #27ae60;
+        color: #fff;
+        font-family: "Sora";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        height: 53px;
+        width: 200px;
+        border: none;
+        margin-top: 30px;
+    }
+    .contact_page_box {
+        border-radius: 20px;
+        background: rgba(216, 216, 216, 0.21);
+        padding: 20px;
+        padding-bottom: 30px !important;
+    }
+    .contact_width {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    .rehabilitation_box_h3 {
+        font-family: "Sora", sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: white;
+        padding-top: 16px;
+    }
+    .rehabilitation_box_p {
+        color: #fff;
+        font-family: Sora;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .about_phcl {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .services_box {
+        border-radius: 30px;
+        background: #fff;
+        box-shadow: 0px 24px 32px 2px rgba(3, 9, 50, 0.04);
+        padding: 24px;
+        margin-top: 20px;
+    }
+    .services_bg {
+        background-image: none;
+    }
+    .images_height {
+        height: 400px !important;
+        width: 100% !important;
+    }
+    .gallery_top_bottom_space {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .traction_bg {
+        background: none;
+    }
+    .padding_top_testimonial {
+        padding-top: 15px;
+    }
+    .contact_page_box {
+        border-radius: 20px;
+        background: rgba(216, 216, 216, 0.21);
+        padding: 20px;
+        padding-bottom: 30px !important;
+    }
+    .contact_width {
+        width: 100% !important;
+    }
+    .submit_contact_form_btn {
+        border-radius: 18px;
+        background: #27ae60;
+        color: #fff;
+        font-family: "Sora";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        height: 53px;
+        width: 200px;
+        border: none;
+        margin-top: 30px;
+    }
+}
+
+.donation_box_page {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 24px 32px 2px rgba(3, 9, 50, 0.04);
+    padding: 24px;
+}
+
+.donation_page_mission_class {
+    color: #034d82 !important;
+    font-family: "Sora";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.donations_phcl_p_about_page {
+    color: #8ea9c1;
+    font-family: "Sora";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 160% */
+    letter-spacing: 0.3px;
+}
+
+.donations_classes_h3 {
+    color: #333;
+    font-family: Sora;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.highlights_phcl_h3 {
+    color: #000;
+    font-family: "Sora";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contact_us_input {
+    width: 100%;
+    border-radius: 15px;
+    background: rgba(211, 214, 216, 0.25);
+    height: 55px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Sora";
+}
+
+.contact_input_label {
+    color: #333;
+    font-family: Sora;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact_us_textarea {
+    width: 100%;
+    border-radius: 21px;
+    background: rgba(211, 214, 216, 0.25);
+    border: none;
+    padding: 10px;
+    resize: none;
+}
+
+.contact_us_input:focus,
+.contact_us_input:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.contact_us_textarea:focus,
+.contact_us_textarea:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar_bg::before,
+.navbar_bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.laptop-container {
+    position: relative;
+    width: 100%;
+    /* Adjust the width as needed */
+}
+
+.laptop-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.laptop-image img {
+    width: 100%;
+    height: auto;
+}
+
+.video-container {
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    width: 76%;
+    height: 68%;
+}
+
+.footer_copy_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px 60px 0px;
+}
+
+.parent-container,
+.child-container {
+    display: flex;
+}
+
+.parent-container {
+    width: 100%;
+    justify-content: center;
+    gap: 30px 30px;
+}
+
+.child-container {
+    width: 30%;
+    height: auto;
+    gap: 30px 30px;
+    flex-direction: column;
+}
+
+.child-container img {
+    transition: all 1s ease-in-out 0s;
+    box-shadow: 2px 2px 20px gray, inset 2px 2px 10px lightgray;
+}
+
+.child-container img:hover {
+    box-shadow: 4px 4px 25px black, inset 2px 2px 2px 10px rgb(0, 0, 20);
+}
+
+.greeting {
+    text-align: center;
+    color: lightblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.fa-brands {
+    font-size: 50px;
+}
+
+.greeting,
+.fa-brands {
+    text-shadow: 2px 2px 10px lightgray;
+}
